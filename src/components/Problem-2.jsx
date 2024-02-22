@@ -116,7 +116,10 @@ const Problem2 = () => {
           <button
             className="btn btn-lg btn-warning"
             type="button"
-            onClick={toggleModal}
+            onClick={() => {
+              toggleModal();
+              handleFilterClick("us");
+            }}
           >
             US Contacts
           </button>
