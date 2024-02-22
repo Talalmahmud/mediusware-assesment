@@ -3,7 +3,6 @@ import React, { useState } from "react";
 const Problem1 = () => {
   const [show, setShow] = useState("all");
   const [dataList, setDataList] = useState([]);
-  const [showList, setShowList] = useState([]);
 
   const [inputs, setInputs] = useState({});
 
